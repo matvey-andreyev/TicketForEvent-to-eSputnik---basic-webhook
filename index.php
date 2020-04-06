@@ -95,7 +95,7 @@ try{
 			echo '<h4>account info:</h4>' . print_r($eSputnik->getAccountInfo(), true) . '<hr />';
 		}
 	} else {
-		// Если не подключился класс в враппером АПИ, выводим дамп. Часть дампа получит TFE для последующего исправления проблемы.
+		// Если не подключился класс в враппере АПИ, выводим дамп. Часть дампа получит TFE для последующего исправления проблемы.
 		echo "noapi<br/>";
 		echo '<h4>data:</h4>' . print_r($data, true) . '<hr />';
 		echo '<h4>result:</h4>' . print_r($result, true) . '<hr />';
