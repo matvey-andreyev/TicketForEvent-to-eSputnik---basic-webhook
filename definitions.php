@@ -25,12 +25,12 @@ $pass = 'password';
  */
 
 $field_dictionary = [
-	'fname'		=> 0,
-	'lname'		=> 1,
-	'email'		=> 2,
-	'company'	=> 3,
-	'position'	=> 4,
-	'phone' 	=> 5,
+	'fname'		=> 0,		// имя
+	'lname'		=> 1,		// фамилия
+	'email'		=> 2,		// email
+	'company'	=> 3,		// название компании
+	'position'	=> 4,		// должность
+	'phone' 	=> 5,		// номер телефона
 ];
  
  
